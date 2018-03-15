@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7CE42C69EF7E91F03F011417 /* libPods-DCURLRouter_Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DBB68BD64D4AC431CB038D7C /* libPods-DCURLRouter_Demo.a */; };
 		F4B5761A2056669E0044D368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B576192056669E0044D368 /* AppDelegate.m */; };
 		F4B5761D2056669E0044D368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5761C2056669E0044D368 /* ViewController.m */; };
 		F4B576202056669E0044D368 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B5761E2056669E0044D368 /* Main.storyboard */; };
 		F4B576222056669E0044D368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4B576212056669E0044D368 /* Assets.xcassets */; };
 		F4B576252056669E0044D368 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4B576232056669E0044D368 /* LaunchScreen.storyboard */; };
 		F4B576282056669E0044D368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B576272056669E0044D368 /* main.m */; };
+		F4B5762F20566DB40044D368 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4B5762E20566DB40044D368 /* DCURLRouter.plist */; };
+		F4B57648205774DB0044D368 /* NJKWebViewProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5763E20576DD20044D368 /* NJKWebViewProgress.m */; };
+		F4B5764A205774DB0044D368 /* NJKWebViewProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764020576DD20044D368 /* NJKWebViewProgressView.m */; };
+		F4B5764C205774DB0044D368 /* ISGBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764420576DD20044D368 /* ISGBaseViewController.m */; };
+		F4B5764E205774DB0044D368 /* ISGBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5763B20576DD20044D368 /* ISGBaseTabBarController.m */; };
+		F4B57650205774DC0044D368 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764320576DD20044D368 /* ISGBaseNavigationController.m */; };
+		F4B57652205774DC0044D368 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5763820576DD20044D368 /* ISGWebViewController.m */; };
+		F4B57654205774DC0044D368 /* WiseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764520576DD20044D368 /* WiseWebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5FA94D860980452A35DA13AB /* Pods-DCURLRouter_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCURLRouter_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-DCURLRouter_Demo/Pods-DCURLRouter_Demo.release.xcconfig"; sourceTree = "<group>"; };
+		BF24F5C7593C0A3AB9273C3F /* Pods-DCURLRouter_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DCURLRouter_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DCURLRouter_Demo/Pods-DCURLRouter_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DBB68BD64D4AC431CB038D7C /* libPods-DCURLRouter_Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DCURLRouter_Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B576152056669E0044D368 /* DCURLRouter_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCURLRouter_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4B576182056669E0044D368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F4B576192056669E0044D368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +38,22 @@
 		F4B576242056669E0044D368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4B576262056669E0044D368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4B576272056669E0044D368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4B5762E20566DB40044D368 /* DCURLRouter.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
+		F4B57630205670350044D368 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F4B5763820576DD20044D368 /* ISGWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISGWebViewController.m; sourceTree = "<group>"; };
+		F4B5763920576DD20044D368 /* ISGBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISGBaseViewController.h; sourceTree = "<group>"; };
+		F4B5763A20576DD20044D368 /* ISGBaseNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISGBaseNavigationController.h; sourceTree = "<group>"; };
+		F4B5763B20576DD20044D368 /* ISGBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISGBaseTabBarController.m; sourceTree = "<group>"; };
+		F4B5763D20576DD20044D368 /* NJKWebViewProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgressView.h; sourceTree = "<group>"; };
+		F4B5763E20576DD20044D368 /* NJKWebViewProgress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgress.m; sourceTree = "<group>"; };
+		F4B5763F20576DD20044D368 /* NJKWebViewProgress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NJKWebViewProgress.h; sourceTree = "<group>"; };
+		F4B5764020576DD20044D368 /* NJKWebViewProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NJKWebViewProgressView.m; sourceTree = "<group>"; };
+		F4B5764120576DD20044D368 /* WiseWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WiseWebViewController.h; sourceTree = "<group>"; };
+		F4B5764220576DD20044D368 /* ISGWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISGWebViewController.h; sourceTree = "<group>"; };
+		F4B5764320576DD20044D368 /* ISGBaseNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISGBaseNavigationController.m; sourceTree = "<group>"; };
+		F4B5764420576DD20044D368 /* ISGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISGBaseViewController.m; sourceTree = "<group>"; };
+		F4B5764520576DD20044D368 /* WiseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseWebViewController.m; sourceTree = "<group>"; };
+		F4B5764620576DD20044D368 /* ISGBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISGBaseTabBarController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +61,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CE42C69EF7E91F03F011417 /* libPods-DCURLRouter_Demo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DC398875ACC148B6967049F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF24F5C7593C0A3AB9273C3F /* Pods-DCURLRouter_Demo.debug.xcconfig */,
+				5FA94D860980452A35DA13AB /* Pods-DCURLRouter_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B61F23BEC4D46AE17F26AC08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DBB68BD64D4AC431CB038D7C /* libPods-DCURLRouter_Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F4B5760C2056669E0044D368 = {
 			isa = PBXGroup;
 			children = (
 				F4B576172056669E0044D368 /* DCURLRouter_Demo */,
 				F4B576162056669E0044D368 /* Products */,
+				2DC398875ACC148B6967049F /* Pods */,
+				B61F23BEC4D46AE17F26AC08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,13 +110,45 @@
 				F4B576192056669E0044D368 /* AppDelegate.m */,
 				F4B5761B2056669E0044D368 /* ViewController.h */,
 				F4B5761C2056669E0044D368 /* ViewController.m */,
+				F4B5763720576DD20044D368 /* Base */,
 				F4B5761E2056669E0044D368 /* Main.storyboard */,
 				F4B576212056669E0044D368 /* Assets.xcassets */,
 				F4B576232056669E0044D368 /* LaunchScreen.storyboard */,
 				F4B576262056669E0044D368 /* Info.plist */,
+				F4B5762E20566DB40044D368 /* DCURLRouter.plist */,
+				F4B57630205670350044D368 /* PrefixHeader.pch */,
 				F4B576272056669E0044D368 /* main.m */,
 			);
 			path = DCURLRouter_Demo;
+			sourceTree = "<group>";
+		};
+		F4B5763720576DD20044D368 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5763C20576DD20044D368 /* NJKWebViewProgress */,
+				F4B5763920576DD20044D368 /* ISGBaseViewController.h */,
+				F4B5764420576DD20044D368 /* ISGBaseViewController.m */,
+				F4B5764620576DD20044D368 /* ISGBaseTabBarController.h */,
+				F4B5763B20576DD20044D368 /* ISGBaseTabBarController.m */,
+				F4B5763A20576DD20044D368 /* ISGBaseNavigationController.h */,
+				F4B5764320576DD20044D368 /* ISGBaseNavigationController.m */,
+				F4B5764220576DD20044D368 /* ISGWebViewController.h */,
+				F4B5763820576DD20044D368 /* ISGWebViewController.m */,
+				F4B5764120576DD20044D368 /* WiseWebViewController.h */,
+				F4B5764520576DD20044D368 /* WiseWebViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F4B5763C20576DD20044D368 /* NJKWebViewProgress */ = {
+			isa = PBXGroup;
+			children = (
+				F4B5763D20576DD20044D368 /* NJKWebViewProgressView.h */,
+				F4B5763E20576DD20044D368 /* NJKWebViewProgress.m */,
+				F4B5763F20576DD20044D368 /* NJKWebViewProgress.h */,
+				F4B5764020576DD20044D368 /* NJKWebViewProgressView.m */,
+			);
+			path = NJKWebViewProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +158,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4B5762B2056669E0044D368 /* Build configuration list for PBXNativeTarget "DCURLRouter_Demo" */;
 			buildPhases = (
+				DBC3FA7E3355B850C976389A /* [CP] Check Pods Manifest.lock */,
 				F4B576112056669E0044D368 /* Sources */,
 				F4B576122056669E0044D368 /* Frameworks */,
 				F4B576132056669E0044D368 /* Resources */,
+				EDA041B5E3ADDC8C2C4197CC /* [CP] Embed Pods Frameworks */,
+				B95334ABAB6E29C7BED6821D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,17 +214,76 @@
 			files = (
 				F4B576252056669E0044D368 /* LaunchScreen.storyboard in Resources */,
 				F4B576222056669E0044D368 /* Assets.xcassets in Resources */,
+				F4B5762F20566DB40044D368 /* DCURLRouter.plist in Resources */,
 				F4B576202056669E0044D368 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B95334ABAB6E29C7BED6821D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCURLRouter_Demo/Pods-DCURLRouter_Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC3FA7E3355B850C976389A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DCURLRouter_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA041B5E3ADDC8C2C4197CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DCURLRouter_Demo/Pods-DCURLRouter_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4B576112056669E0044D368 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4B57648205774DB0044D368 /* NJKWebViewProgress.m in Sources */,
+				F4B5764A205774DB0044D368 /* NJKWebViewProgressView.m in Sources */,
+				F4B5764C205774DB0044D368 /* ISGBaseViewController.m in Sources */,
+				F4B5764E205774DB0044D368 /* ISGBaseTabBarController.m in Sources */,
+				F4B57650205774DC0044D368 /* ISGBaseNavigationController.m in Sources */,
+				F4B57652205774DC0044D368 /* ISGWebViewController.m in Sources */,
+				F4B57654205774DC0044D368 /* WiseWebViewController.m in Sources */,
 				F4B5761D2056669E0044D368 /* ViewController.m in Sources */,
 				F4B576282056669E0044D368 /* main.m in Sources */,
 				F4B5761A2056669E0044D368 /* AppDelegate.m in Sources */,
@@ -276,10 +418,12 @@
 		};
 		F4B5762C2056669E0044D368 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF24F5C7593C0A3AB9273C3F /* Pods-DCURLRouter_Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22DW6D8D79;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DCURLRouter_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.isg.DCURLRouter-Demo";
@@ -290,10 +434,12 @@
 		};
 		F4B5762D2056669E0044D368 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FA94D860980452A35DA13AB /* Pods-DCURLRouter_Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 22DW6D8D79;
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DCURLRouter_Demo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.isg.DCURLRouter-Demo";

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "DCURLRouter.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+- (IBAction)jump:(id)sender {
+    NSString *urlStr = @"https://www.baidu.com";
+    [DCURLRouter pushURLString:urlStr animated:YES];
+
 }
 
 
