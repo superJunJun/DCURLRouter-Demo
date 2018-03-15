@@ -20,7 +20,8 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 - (IBAction)jump:(id)sender {
-    NSString *urlStr = @"https://www.baidu.com";
+//    NSString *urlStr = @"https://www.baidu.com";
+    NSString *urlStr = @"dariel://Oneitem";
     [DCURLRouter pushURLString:urlStr animated:YES];
 
 }

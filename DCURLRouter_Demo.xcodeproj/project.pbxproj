@@ -22,6 +22,8 @@
 		F4B57650205774DC0044D368 /* ISGBaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764320576DD20044D368 /* ISGBaseNavigationController.m */; };
 		F4B57652205774DC0044D368 /* ISGWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5763820576DD20044D368 /* ISGWebViewController.m */; };
 		F4B57654205774DC0044D368 /* WiseWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4B5764520576DD20044D368 /* WiseWebViewController.m */; };
+		F4F658A4205A19BF00F4971F /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4F658A2205A19BF00F4971F /* OneViewController.m */; };
+		F4F658A5205A19BF00F4971F /* OneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F4F658A3205A19BF00F4971F /* OneViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,9 @@
 		F4B5764420576DD20044D368 /* ISGBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ISGBaseViewController.m; sourceTree = "<group>"; };
 		F4B5764520576DD20044D368 /* WiseWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WiseWebViewController.m; sourceTree = "<group>"; };
 		F4B5764620576DD20044D368 /* ISGBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISGBaseTabBarController.h; sourceTree = "<group>"; };
+		F4F658A1205A19BF00F4971F /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		F4F658A2205A19BF00F4971F /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		F4F658A3205A19BF00F4971F /* OneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +115,11 @@
 				F4B576192056669E0044D368 /* AppDelegate.m */,
 				F4B5761B2056669E0044D368 /* ViewController.h */,
 				F4B5761C2056669E0044D368 /* ViewController.m */,
-				F4B5763720576DD20044D368 /* Base */,
 				F4B5761E2056669E0044D368 /* Main.storyboard */,
+				F4F658A1205A19BF00F4971F /* OneViewController.h */,
+				F4F658A2205A19BF00F4971F /* OneViewController.m */,
+				F4F658A3205A19BF00F4971F /* OneViewController.xib */,
+				F4B5763720576DD20044D368 /* Base */,
 				F4B576212056669E0044D368 /* Assets.xcassets */,
 				F4B576232056669E0044D368 /* LaunchScreen.storyboard */,
 				F4B576262056669E0044D368 /* Info.plist */,
@@ -216,6 +224,7 @@
 				F4B576222056669E0044D368 /* Assets.xcassets in Resources */,
 				F4B5762F20566DB40044D368 /* DCURLRouter.plist in Resources */,
 				F4B576202056669E0044D368 /* Main.storyboard in Resources */,
+				F4F658A5205A19BF00F4971F /* OneViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +295,7 @@
 				F4B57654205774DC0044D368 /* WiseWebViewController.m in Sources */,
 				F4B5761D2056669E0044D368 /* ViewController.m in Sources */,
 				F4B576282056669E0044D368 /* main.m in Sources */,
+				F4F658A4205A19BF00F4971F /* OneViewController.m in Sources */,
 				F4B5761A2056669E0044D368 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
